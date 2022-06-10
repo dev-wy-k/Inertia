@@ -5551,6 +5551,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -34856,10 +34859,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", [_vm._v("Welcome Inertia")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-danger" }, [_vm._v("Hello World")]),
+    return _c("div", { staticClass: "row min-vh-100 align-items-center" }, [
+      _c("div", { staticClass: "col-6 offset-3 text-center" }, [
+        _c("h1", [_vm._v("Welcome Inertia CRUD")]),
+        _vm._v(" "),
+        _c("a", { staticClass: "btn btn-primary", attrs: { href: "/user" } }, [
+          _vm._v("Go To User"),
+        ]),
+      ]),
     ])
   },
 ]

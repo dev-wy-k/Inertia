@@ -1,7 +1,10 @@
 <template>
-    <div>
-        <h1>Welcome Inertia</h1>
-        <p class="text-danger">Hello World</p>
+    <div class="row min-vh-100 align-items-center">
+       <div class="col-6 offset-3 text-center">
+            <h1>Welcome Inertia CRUD</h1>
+
+            <a href="/user" class="btn btn-primary">Go To User</a>
+       </div>
     </div>
 </template>
 
